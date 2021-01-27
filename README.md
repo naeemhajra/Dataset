@@ -1,5 +1,5 @@
 ### Mutated_SmartApps
-This dataset is prepared by Parveen and Alalfi [[1]](#1). They injected mutations in the apps of SmartThings dataset.
+This dataset is prepared by Parveen and Alalfi [[1]](#1). To prepare this dataset they injected mutations in the SmartApps of SmartThings dataset.
 
 ### SmartThings
 This folder contains a set of SmartApps from SmartThings. We collected these applications from: https://github.com/SmartThingsCommunity/SmartThingsPublic
