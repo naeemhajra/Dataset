@@ -1,4 +1,6 @@
 ### FlowMiner - Link for the tool
+The FlowMiner tool is implemented in Python 3 and uses text mining techniques to identify tainted flows. The tool processes the source code of a SmartApp to put the source code in a so called standard format before tokenizing the source code. This reduces the number of cases to be handled at each step while identifying the tainted flows. The tool starts by identifying the sources of a SmartApp. Once the sources set is identified, the sinks are read from a locally deployed file named as Sinks.txt. This tool uses a fixed set of sinks provided in the Sinks.txt file. However, the tool provides flexibility to update the sinks and is capable of working with any set of sinks. The set of sources and sinks are used to identify tainted flows. The tool tokenizes the source code to check if it contains a sink. If the source code contains a sink, it proceeds further to identify tainted flows. The usage of FlowsMiner is fairly straightforward, click of a button allows users to select a file containing source code of a SmartApp. The tool analyzes the selected file to display the tainted flows.
+Link: https://141.117.231.79:6852/
 
 ### SmartThings - Corpus 1
 This folder contains a set of SmartApps from SmartThings. We collected these applications from: https://github.com/SmartThingsCommunity/SmartThingsPublic
