@@ -1,7 +1,7 @@
 # Datasets
 Two datasets are provided here. One dataset is prepared by Celik et al. [1] by collecting SmartApps from marketplace, community, SmartThings forum and IoTBench (Celik et al. 2018). This dataset contains 217 SmartApps and we name it as Corpus1.
 
-Corpus2 was created by Parveen and Alalfi [2] where they altered the order of statements in benign SmartApps selected from Corpus1 to introduce vulnerable apps that leak sensitive information. Mutations created by them mainly focused on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
+Corpus2 was created by Parveen and Alalfi [[2]](#2) where they altered the order of statements in benign SmartApps selected from Corpus1 to introduce vulnerable apps that leak sensitive information. Mutations created by them mainly focused on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
 
 References
 1- Celik, Z. Berkay, Leonardo Babun, Amit Kumar Sikder, Hidayet Aksu, Gang Tan, Patrick McDaniel, and A. Selcuk Uluagac. "Sensitive information tracking in commodity IoT." In 27th {USENIX} Security Symposium ({USENIX} Security 18), pp. 1687-1704. 2018.
