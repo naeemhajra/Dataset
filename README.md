@@ -11,7 +11,7 @@ The dataset was prepared by Parveen and Alalfi [[2]](#2). To prepare this datase
 1- Hajra Naeem, and Manar H. Alalfi. "Predicting sensitive information leakage in IoT applications using flows-aware machine learning approach." Empirical Software Engineering 27, no. 6 (2022): 137.
 https://link.springer.com/article/10.1007/s10664-022-10157-y 
 
-This research paper is available here: https://arxiv.org/abs/2201.02677
+Preprint of this research paper can be downloaded from: https://arxiv.org/abs/2201.02677
 
 2- Hajra Naeem, and Manar H. Alalfi. "Identifying vulnerable IoT applications using deep learning." In 2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 582-586. IEEE, 2020.
 https://ieeexplore.ieee.org/abstract/document/9054817
