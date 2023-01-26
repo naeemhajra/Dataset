@@ -1,10 +1,10 @@
 # Datasets
 
 ### SmartThings - Corpus 1
-This folder contains a set of SmartApps from SmartThings. We collected these applications from: https://github.com/SmartThingsCommunity/SmartThingsPublic . This dataset is prepared by Celik et al. [[1]](#1) by collecting SmartApps from marketplace, community, SmartThings forum and IoTBench (Celik et al. 2018). This dataset contains 217 SmartApps.
+We collected these applications from: https://github.com/SmartThingsCommunity/SmartThingsPublic. This dataset was prepared by Celik et al. [[1]](#1) by collecting SmartApps from marketplace, community, SmartThings forum and IoTBench. It contains 217 SmartApps.
 
 ### Mutated_SmartApps - Corpus 2
-This dataset is prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They altered the order of statements in benign SmartApps selected from Corpus1 to introduce vulnerable apps that leak sensitive information. Mutations created by them mainly focused on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
+This dataset is prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They mainly altered the order of statements in benign SmartApps selected from Corpus1 to introduce vulnerabilities that leak sensitive information. Mutations created by them mainly focused on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
 
 ## Research Papers published Using these Satasets
 
@@ -14,6 +14,7 @@ https://link.springer.com/article/10.1007/s10664-022-10157-y
 This research paper is ailable here: https://arxiv.org/abs/2201.02677
 
 2- Naeem, Hajra, and Manar H. Alalfi. "Identifying vulnerable IoT applications using deep learning." In 2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 582-586. IEEE, 2020.
+https://ieeexplore.ieee.org/abstract/document/9054817
 
 ### FlowsMiner 
 The FlowsMiner tool is implemented in Python 3 and uses text mining techniques to identify tainted flows from Corpus1 and Corpus2. The tool processes the source code of a SmartApp to put the source code in a so called standard format before tokenizing the source code. This reduces the number of cases to be handled at each step while identifying the tainted flows. The tool starts by identifying the sources of a SmartApp. Once the sources set is identified, the sinks are read from a locally deployed file named as Sinks.txt. This tool uses a fixed set of sinks provided in the Sinks.txt file. However, the tool provides flexibility to update the sinks and is capable of working with any set of sinks. The set of sources and sinks are used to identify tainted flows. The tool tokenizes the source code to check if it contains a sink. If the source code contains a sink, it proceeds further to identify tainted flows. <!--The usage of FlowsMiner is fairly straightforward, copy and paste the source code of a SmartApp.--> The tool analyzes the selected source code to display the tainted flows.
