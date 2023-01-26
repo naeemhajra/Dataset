@@ -1,19 +1,19 @@
 # Datasets
 
 ### SmartThings - Corpus 1
-We collected these applications from: https://github.com/SmartThingsCommunity/SmartThingsPublic. This dataset was prepared by Celik et al. [[1]](#1) by collecting SmartApps from marketplace, community, SmartThings forum and IoTBench. It contains 217 SmartApps.
+We have collected these SmartApps from: https://github.com/SmartThingsCommunity/SmartThingsPublic. To prepare this dataset Celik et al. [[1]](#1) have collected SmartApps from marketplace, community, SmartThings forum and IoTBench.
 
 ### Mutated_SmartApps - Corpus 2
-This dataset is prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They mainly altered the order of statements in benign SmartApps selected from Corpus1 to introduce vulnerabilities that leak sensitive information. Mutations created by them mainly focused on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
+The dataset was prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They mainly altered the order of statements in benign SmartApps to introduce vulnerabilities that leak sensitive information. Mutations created by them mainly focus on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
 
 ## Research Papers published Using these Satasets
 
-1- Naeem, Hajra, and Manar H. Alalfi. "Predicting sensitive information leakage in IoT applications using flows-aware machine learning approach." Empirical Software Engineering 27, no. 6 (2022): 137.
+1- Hajra Naeem, and Manar H. Alalfi. "Predicting sensitive information leakage in IoT applications using flows-aware machine learning approach." Empirical Software Engineering 27, no. 6 (2022): 137.
 https://link.springer.com/article/10.1007/s10664-022-10157-y 
 
-This research paper is ailable here: https://arxiv.org/abs/2201.02677
+This research paper is available here: https://arxiv.org/abs/2201.02677
 
-2- Naeem, Hajra, and Manar H. Alalfi. "Identifying vulnerable IoT applications using deep learning." In 2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 582-586. IEEE, 2020.
+2- Hajra Naeem, and Manar H. Alalfi. "Identifying vulnerable IoT applications using deep learning." In 2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 582-586. IEEE, 2020.
 https://ieeexplore.ieee.org/abstract/document/9054817
 
 ### FlowsMiner 
