@@ -1,5 +1,15 @@
+# Datasets
+Two datasets are provided here. One dataset is prepared by Celik et al. [1] by collecting SmartApps from marketplace, community, SmartThings forum and IoTBench (Celik et al. 2018). This dataset contains 217 SmartApps and we name it as Corpus1.
+
+Corpus2 was created by Parveen and Alalfi [2] where they altered the order of statements in benign SmartApps selected from Corpus1 to introduce vulnerable apps that leak sensitive information. Mutations created by them mainly focused on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
+
+References
+1- Celik, Z. Berkay, Leonardo Babun, Amit Kumar Sikder, Hidayet Aksu, Gang Tan, Patrick McDaniel, and A. Selcuk Uluagac. "Sensitive information tracking in commodity IoT." In 27th {USENIX} Security Symposium ({USENIX} Security 18), pp. 1687-1704. 2018.
+2- Parveen, Sajeda, and Manar H. Alalfi. "A mutation framework for evaluating security analysis tools in IoT applications." In 2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER), pp. 587-591. IEEE, 2020.
+
 ## Research Papers published Using these Satasets
-Naeem, Hajra, and Manar H. Alalfi. "Predicting sensitive information leakage in IoT applications using flows-aware machine learning approach." Empirical Software Engineering 27.6 (2022): 137.
+
+Naeem, Hajra, and Manar H. Alalfi. "Predicting sensitive information leakage in IoT applications using flows-aware machine learning approach." Empirical Software Engineering 27, no. 6 (2022): 137.
 https://link.springer.com/article/10.1007/s10664-022-10157-y 
 
 It is also available here.
