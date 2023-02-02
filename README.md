@@ -4,7 +4,7 @@
 <p align="justify">We have collected these SmartApps from: https://github.com/SmartThingsCommunity/SmartThingsPublic. To prepare this dataset Celik et al. [[1]](#1) have collected SmartApps from marketplace, community, SmartThings forum and IoTBench.</p>
 
 ### Mutated_SmartApps - Corpus 2
-[end of file](#eof)
+[end of file](#1)
 
 <p align="justify">The dataset was prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They mainly altered the order of statements in benign SmartApps to introduce vulnerabilities that leak sensitive information. Mutations created by them mainly focus on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.</p>
 
@@ -32,7 +32,7 @@ Celik, Z. Berkay, Leonardo Babun, Amit Kumar Sikder, Hidayet Aksu, Gang Tan, Pat
 
 <a id="2">[2]</a> 
 Sajeda Parveen, Manar H. Alalfi (2020). 
-<a id="eof">eof</a> A Mutation Framework for Evaluating Security Analysis Tools in IoT Applications. 
+A Mutation Framework for Evaluating Security Analysis Tools in IoT Applications. 
 27th {IEEE} International Conference on Software Analysis, Evolution and Reengineering, {SANER} 2020, London, ON, Canada, February 18-21, 2020.
 
 
