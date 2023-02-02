@@ -1,7 +1,7 @@
 # Datasets
 
 ### SmartThings - Corpus 1
-<p align="justify">We have collected these SmartApps from: https://github.com/SmartThingsCommunity/SmartThingsPublic. To prepare this dataset Celik et al.</p> [[1]](#1) <p align="justify">have collected SmartApps from marketplace, community, SmartThings forum and IoTBench.</p>
+We have collected these SmartApps from: https://github.com/SmartThingsCommunity/SmartThingsPublic. To prepare this dataset Celik et al. [[1]](#1) have collected SmartApps from marketplace, community, SmartThings forum and IoTBench.
 
 ### Mutated_SmartApps - Corpus 2
 <p align="justify">The dataset was prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They mainly altered the order of statements in benign SmartApps to introduce vulnerabilities that leak sensitive information. Mutations created by them mainly focus on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.</p>
