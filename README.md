@@ -6,7 +6,7 @@ We have collected these SmartApps from: https://github.com/SmartThingsCommunity/
 ### Mutated_SmartApps - Corpus 2
 The dataset was prepared by Parveen and Alalfi [[2]](#2). To prepare this dataset they injected mutations in the SmartApps of SmartThings - Corpus 1 dataset. They mainly altered the order of statements in benign SmartApps to introduce vulnerabilities that leak sensitive information. Mutations created by them mainly focus on generating tainted flows vulnerabilities by changing the order of statements in the sequential code flow.
 
-## Research Papers published Using these Satasets
+## Research Papers published Using these Datasets
 
 <p align="justify">1- Hajra Naeem, and Manar H. Alalfi. "Predicting sensitive information leakage in IoT applications using flows-aware machine learning approach." Empirical Software Engineering 27, no. 6 (2022): 137.
 https://link.springer.com/article/10.1007/s10664-022-10157-y 
